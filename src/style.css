@@ -157,7 +157,7 @@ form {
 }
 
 #displayNames {
-  background-color: gray;
+  background-color: hsl(240, 3%, 16%);
     display: flex;
     flex-wrap: wrap;
     /* max-width: 1000px; */
@@ -166,7 +166,7 @@ form {
 }
 
 .allEmployees {
-  background-color: rgb(4, 21, 82);
+  background-color: hsl(240, 3%, 16%);
   color: white;
   /* width: 400px; */
   flex-basis: 20%;
@@ -178,7 +178,7 @@ form {
 }
 
 .responders {
-  background-color: rgb(4, 21, 82);
+  background-color: hsl(240, 3%, 16%);
   color: white;
   /* width: 400px; */
   flex-basis: 20%;
@@ -190,7 +190,7 @@ form {
 }
 
 .nonResponders {
-  background-color: rgb(4, 21, 82);
+  background-color: hsl(240, 3%, 16%);
   color: white;
   /* width: 400px; */
   flex-basis: 20%;
