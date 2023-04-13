@@ -13,7 +13,7 @@ export const EmployeesList = () => {
   const [weekFourNonResponders, setWeekFourNonResponders] = useState([]); 
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/employees')
+    fetch('/api/attendance')
   .then((data) => data.json())
   .then((newData) => {
     const allEmployees = []; 
