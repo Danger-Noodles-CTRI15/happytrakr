@@ -26,7 +26,6 @@ import { useNavigate, Link } from 'react-router-dom';
 
 // export default ConfirmEmployer
 
-
 const ConfirmEmployer = (props) => {
   const [ employerID, setEmployerID ] = useState('');
   const [ password, setPassword ] = useState('');
